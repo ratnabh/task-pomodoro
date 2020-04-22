@@ -5,7 +5,7 @@ var cron = require("node-cron");
 const task = require("./router/task");
 const mongoose = require("mongoose");
 mongoose.connect(
-  "mongodb+srv://ananya:LDO9F8tc1Yq88dcu@cluster0-bxzzc.mongodb.net/pomodoro?retryWrites=true&w=majority",
+  "mongodb+srv://***@cluster0-bxzzc.mongodb.net/pomodoro?retryWrites=true&w=majority",
   () => {
     console.log("connected to db");
   }
